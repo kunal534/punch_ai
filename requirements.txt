@@ -1,0 +1,6 @@
+fastmcp==2.11.3
+markdownify
+readabilipy
+pdfminer.six
+httpx
+pydantic
