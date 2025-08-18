@@ -9,11 +9,12 @@ from pydantic import BaseModel, AnyUrl, Field
 import readabilipy
 from pathlib import Path
 import re
+import os
 
 # -----------------------------
 # Configuration
 # -----------------------------
-TOKEN = "a73bd1180050"  # Replace with your application key
+TOKEN = os.getenv("TOKEN")
 MY_NUMBER = "916396810512"  # Replace with your phone number {country_code}{number}
 
 # -----------------------------
